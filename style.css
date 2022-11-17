@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background: #dfdfdf;
+}
+
+.logo{
+    position: relative;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#choose{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+#box{
+ position: absolute;
+ top: 14vh;
+ left: 13.5vw;
+ width: 100vw;
+
+}
+#text{
+    height: 6.6vh;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+#btn{
+    height: 6.4vh;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.cont {
+   position: absolute;
+    height: 100vh;
+    width: 100vw;
+ 
+
+}
+
+.a{
+
+   font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: -11vh;
+    font-size: 1.5vw;
+  
+}
+
+#icon { 
+    position: absolute;
+    
+}
+
+.nav{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 100%;
+    height: 8%;
+    color: #fff;
+    background-color: rgb(2, 2, 2);
+}
+
+#mine{
+    position: absolute;
+    top: 70vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+
+
+.img-cont {
+    margin-top: 17rem;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 26vw;
+
+}
+
+#image1{
+position: absolute;
+top: -5vh;
+left: -10vw;
+
+}
+
+#image2{
+position: absolute;
+left: 27vw;
+top: -5vh;
+
+}
+ 
+
+.img1 {
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+   
+}
+
+img {
+    width: 300px;
+}
+
+
+.opa {
+    opacity: 0;
+    width: 10px;
+}
+.ri-image-add-line{
+    position: absolute;
+    top: 40vh;
+    left: 26.4vw;
+    font-size: 8vw;
+    color: rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+    z-index: -1;
+}
+
+#har{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30vh;
+  
+   
+}
+
+#har>h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+#decoded{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1vh;
+    background-color: #bdbdbd4f;
+    padding: 2vw;
+    border-radius: 8px;
+
+     
+}
